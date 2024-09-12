@@ -11,4 +11,10 @@ int main()
   cout << "What is your name? ";
   getline(cin, name);
   cout << "Hello, " << name << "!" << endl;
+
+  // show off our counting abilities
+  cout << "I can count to 10!" << endl;
+  for(int i=1; i<=10; i++) {
+    cout << i << endl;
+  }
 }
